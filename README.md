@@ -1,11 +1,11 @@
-###### Step 1: Launch EC2 Instance #######
+#### Step 1: Launch EC2 Instance #######
 Amazon Linux 2 or Ubuntu
 Allow inbound security group:
 Port 22 → SSH
 Port 5000 → Flask
 Port 3306 → Only from EC2 to RDS
 
-###### Step 2: Install Dependencies on EC2 #########
+#### Step 2: Install Dependencies on EC2 #########
 SSH into EC2:
 sudo yum update -y
 sudo yum install python3 -y
