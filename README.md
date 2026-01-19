@@ -13,6 +13,7 @@ sudo yum install python3 -y
 sudo yum install python3-pip -y 
 
 #### Clone/Upload your app: #####
+``` bash
 mkdir flask-rds-app
 cd flask-rds-app
 
